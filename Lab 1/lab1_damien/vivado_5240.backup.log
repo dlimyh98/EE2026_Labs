@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jan 29 22:22:50 2021
+# Process ID: 5240
+# Current directory: C:/Users/dlimy/Downloads/Xilinx/Vivado/2018.2/bin
+# Command line: vivado.exe
+# Log file: C:/Users/dlimy/Downloads/Xilinx/Vivado/2018.2/bin/vivado.log
+# Journal file: C:/Users/dlimy/Downloads/Xilinx/Vivado/2018.2/bin\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dlimy/lab1_damien/lab1_damien.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/dlimy/Downloads/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 819.117 ; gain = 81.078
+update_compile_order -fileset sources_1
+archive_project C:/Users/dlimy/lab1_damien.xpr.zip -temp_dir C:/Users/dlimy/Downloads/Xilinx/Vivado/2018.2/bin/.Xil/Vivado-5240-BY-home-AIO-C27-865 -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/dlimy/Downloads/Xilinx/Vivado/2018.2/bin/.Xil/Vivado-5240-BY-home-AIO-C27-865' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/dlimy/Downloads/Xilinx/Vivado/2018.2/bin/.Xil/Vivado-5240-BY-home-AIO-C27-865/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
